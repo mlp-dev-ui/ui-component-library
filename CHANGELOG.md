@@ -1,5 +1,11 @@
 # @mlp/ui
 
+## 0.1.3
+
+### Patch Changes
+
+- Added Documentation to Input and Button Stories
+
 ## 0.1.2
 
 ### Patch Changes
