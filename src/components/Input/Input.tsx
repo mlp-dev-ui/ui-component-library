@@ -1,6 +1,6 @@
 // src/components/Input/Input.tsx
 
-import styles from "./Index.module.css";
+import styles from "./Input.module.css";
 
 export interface InputProps {
   /** Label displayed above the input */
