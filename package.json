@@ -1,5 +1,5 @@
 {
-  "name": "@lakshmi-p-mantravadi/ui",
+  "name": "@mlp-dev-ui/ui",
   "version": "0.2.0",
   "description": "Internal UI Component Library",
   "main": "dist/index.js",
