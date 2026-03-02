@@ -1,5 +1,11 @@
 # @mlp/ui
 
+## 0.2.1
+
+### Patch Changes
+
+- connect to mlp-dev-ui org and update package scope
+
 ## 0.2.0
 
 ### Minor Changes
