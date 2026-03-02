@@ -5,3 +5,5 @@ export { Tooltip } from "./components/Tooltip";
 export { Input } from "./components/Input";
 export { ToastProvider, useToast, Toast } from "./components/Toast";
 export type { ToastProps, ToastType } from "./components/Toast";
+export { Badge } from "./components/Badge";
+export type { BadgeVariant, BadgeSize } from "./components/Badge";
