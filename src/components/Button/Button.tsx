@@ -6,7 +6,7 @@ export interface ButtonProps {
   /** The visual variant of the button */
   variant?: "primary" | "secondary" | "danger" | "ghost";
   /** Size of the button */
-  size: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg";
   /** Disables the button */
   disabled?: boolean;
   /** Shows a loading indicator */

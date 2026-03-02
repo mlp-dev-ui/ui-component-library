@@ -1,0 +1,33 @@
+/* src/components/Tooltip/Tooltip.module.css */
+.trigger {
+  display: inline-flex;
+  align-items: center;
+}
+
+.content {
+  background-color: var(--color-gray-900);
+  color: var(--color-text-inverse);
+  font-family: var(--font-family);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  max-width: 200px;
+  z-index: 200;
+  animation: fadeIn var(--transition-fast);
+}
+
+.arrow {
+  fill: var(--color-gray-900);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
