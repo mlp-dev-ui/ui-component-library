@@ -6,6 +6,9 @@ on:
       - main
       - feat/*
       - develop
+      - feature/*
+      - bugfix/*
+      - hotfix/*
 
 jobs:
   publish:
