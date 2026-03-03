@@ -1,5 +1,11 @@
 # @mlp/ui
 
+## 0.3.0
+
+### Minor Changes
+
+- add Badge component
+
 ## 0.2.1
 
 ### Patch Changes
