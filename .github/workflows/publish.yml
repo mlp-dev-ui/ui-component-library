@@ -6,7 +6,6 @@ on:
       - main
       - feat/*
       - develop
-      - feat/badge-component
 
 jobs:
   publish:
