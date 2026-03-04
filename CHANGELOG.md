@@ -1,5 +1,11 @@
 # @mlp/ui
 
+## 0.4.0
+
+### Minor Changes
+
+- new composite component - LoginCard
+
 ## 0.3.0
 
 ### Minor Changes

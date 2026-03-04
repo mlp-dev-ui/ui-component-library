@@ -1,5 +1,4 @@
-// src/components/Toast/Toast.tsx
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import styles from "./Toast.module.css";
 
 export type ToastType = "success" | "error" | "warning" | "info";
