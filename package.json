@@ -15,9 +15,14 @@
     "build": "tsup",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "preview": "vite preview",
     "storybook": "rm -rf node_modules/.cache/storybook && storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chageset": "changeset",
+    "version-packages": "changeset version"
   },
   "peerDependencies": {
     "react": ">=17",
@@ -32,6 +37,8 @@
     "@storybook/addon-onboarding": "^10.2.13",
     "@storybook/addon-vitest": "^10.2.13",
     "@storybook/react-vite": "^10.2.13",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
@@ -43,6 +50,7 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "eslint-plugin-storybook": "^10.2.13",
     "globals": "^16.5.0",
+    "jsdom": "^28.1.0",
     "playwright": "^1.58.2",
     "rimraf": "^6.1.3",
     "storybook": "^10.2.13",
