@@ -1,5 +1,11 @@
 # @mlp/ui
 
+## 0.4.1
+
+### Patch Changes
+
+- setup Vitest, update CI pipeline to Node 22
+
 ## 0.4.0
 
 ### Minor Changes
