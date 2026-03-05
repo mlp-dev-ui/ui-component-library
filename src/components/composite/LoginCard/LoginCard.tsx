@@ -17,8 +17,8 @@ export interface LoginCardProps {
   /** Custom title for the card */
   title?: string;
 
-  /** Custom subtitle for the card */
-  subtitle?: string;
+  /** Custom description for the card */
+  description?: string;
 }
 
 export function LoginCard({
@@ -26,7 +26,7 @@ export function LoginCard({
   isLoading = false,
   error,
   title = "Welcome Back!",
-  subtitle = "Please login to your account.",
+  description: description = "Please login to your account.",
 }: LoginCardProps) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -67,7 +67,7 @@ export function LoginCard({
   return (
     <Card
       title={title}
-      description={subtitle}
+      description={description}
       actions={
         <Button
           label="Sign In"

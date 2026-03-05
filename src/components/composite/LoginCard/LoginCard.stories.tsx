@@ -169,6 +169,6 @@ export const CustomTitle: Story = {
   args: {
     onLogin: () => {},
     title: "Admin Portal",
-    subtitle: "Sign in with your admin credentials to continue.",
+    description: "Sign in with your admin credentials to continue.",
   },
 };

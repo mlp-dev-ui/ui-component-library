@@ -31,10 +31,16 @@ export function Input({
   helperText,
   onChange,
 }: InputProps) {
+  const id = label?.toLowerCase().replace(/\\s+/g, "-");
   return (
     <div className={styles.wrapper}>
-      {label && <label className={styles.label}>{label}</label>}
+      {label && (
+        <label htmlFor={id} className={styles.label}>
+          {label}
+        </label>
+      )}
       <input
+        id={id}
         type={type}
         placeholder={placeholder}
         value={value}
