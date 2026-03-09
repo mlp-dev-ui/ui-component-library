@@ -24,7 +24,7 @@ export function Modal({
   return (
     <Dialog.Root open={isOpen} onOpenChange={(isOpen) => !isOpen && onClose()}>
       <Dialog.Overlay className={styles.overlay} />
-      <Dialog.Content className={styles.content}>
+      <Dialog.Content aria-describedby={undefined} className={styles.content}>
         {/* Header */}
         <div className={styles.header}>
           <Dialog.Title className={styles.title}>{title}</Dialog.Title>
