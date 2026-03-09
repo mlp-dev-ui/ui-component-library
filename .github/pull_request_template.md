@@ -1,5 +1,3 @@
-cat > .github/pull_request_template.md << 'EOF'
-
 ## 📌 Description
 
 <!-- Brief description of the changes and what JIRA ticket this relates to -->
@@ -53,4 +51,3 @@ cat > .github/pull_request_template.md << 'EOF'
 - [ ] Code builds successfully
 - [ ] Lint passes
 - [ ] Documentation updated
-      EOF
