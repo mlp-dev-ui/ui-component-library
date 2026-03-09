@@ -1,33 +1,38 @@
+cat > .github/pull_request_template.md << 'EOF'
+
 ## 📌 Description
 
-Describe the changes introduced in this PR.
+<!-- Brief description of the changes and what JIRA ticket this relates to -->
 
 ---
 
 ## 🔧 Type of Change
 
+- [ ] New component
 - [ ] Bug fix
-- [ ] New feature
 - [ ] Refactor
 - [ ] Documentation update
 - [ ] CI/CD improvement
+- [ ] Chore
 - [ ] Other (please describe)
 
 ---
 
 ## 🧪 Testing
 
-How was this tested?
-
 - [ ] Unit tests added/updated
 - [ ] Manual testing performed
 - [ ] Existing tests passed
 
-## Test details:
+**Test details:**
+
+<!-- Describe how you tested this -->
+
+---
 
 ## 📸 Screenshots (if applicable)
 
-Add screenshots or GIFs if UI changes were made.
+<!-- Add screenshots or GIFs if UI changes were made -->
 
 ---
 
@@ -40,7 +45,12 @@ Add screenshots or GIFs if UI changes were made.
 
 ## 📝 Checklist
 
+- [ ] Linked to JIRA ticket
+- [ ] Component follows design tokens
+- [ ] Stories added/updated in Storybook
+- [ ] Props are typed with TypeScript
+- [ ] No hardcoded values — only CSS variables used
 - [ ] Code builds successfully
-- [ ] Tests added or updated
 - [ ] Lint passes
 - [ ] Documentation updated
+      EOF
